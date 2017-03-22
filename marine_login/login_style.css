@@ -1,0 +1,42 @@
+@import http://fonts.googleapis.com/css?family=Raleway;
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+#main {
+width:960px;
+margin:50px auto;
+font-family:raleway
+}
+
+body {
+    background-color: grey;
+}
+
+#login {
+    width:300px;
+    float:left;
+    border-radius:10px;
+    border:2px solid #ccc;
+    padding:10px 40px 25px;
+    margin-top:70px
+}
+
+input[type=text],input[type=password] {
+    width:99.5%;
+    padding:10px;
+    margin-top:8px;
+    border:1px solid #ccc;
+    padding-left:5px;
+    font-size:16px;
+}
+
+input[type=submit] {
+    width:100%;
+    background-color:#67655D;
+    border:2px solid #67655D;
+    padding:10px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:5px;
+    margin-bottom:15px
+}
